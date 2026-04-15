@@ -2,8 +2,9 @@ public class countDigits {
     static int countNum(int num){
         int count = 0;
         while( num!=0 ){
-            num = num / 10;
+            int digit = num % 10;
             count++;
+            num = num / 10;
         }
         return count;
     }
