@@ -1,6 +1,6 @@
 package JavaOops.inheritance;
 
-public class inheritanceCall {
+public class Main {
     public static void main(String[] args) {
         Car c = new Car("maruti", "808XUV", 4, 5, "auto");
         c.startEngine();
